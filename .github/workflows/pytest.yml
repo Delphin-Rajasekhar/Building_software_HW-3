@@ -19,6 +19,7 @@ jobs:
         pip install pytest pytest-cov pandas
         pip install pytest pytest-cov pyyaml
         pip install pytest pytest-cov argparse
+        pip install pytest pytest-cov pyarrow
 
 
     - name: Test with pytest
